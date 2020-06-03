@@ -13,7 +13,7 @@ library(RCurl)
 #'1) Sedentary; 2) Standing utilitarian movements; 3) Walking
 
 # Load sample data for each placement
-load(url("https://github.com/QUTcparg/Sensors_CP_PersonalisedModels/raw/master/models/sample%20data%20Group_personalised.RData"))
+load(url("https://github.com/QUTcparg/Sensors_CP_PersonalisedModels/raw/master/models/sample%20data.RData"))
 
 #'Each "Classifiers_Group" and "Classifiers_Group_Personalised" RData file contains the RF models for 
 #'either Group or Group-personalised models for each of the following placements:
